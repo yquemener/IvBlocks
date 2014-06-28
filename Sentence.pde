@@ -2,7 +2,7 @@ class Sentence{
   Block handle;
   ArrayList<Zone> parts;
   
-  Sentence(String initstr, int x, int y)
+  /*Sentence(String initstr, int x, int y)
   {
     parts = new ArrayList<Zone>();
     handle = new Block();
@@ -45,5 +45,5 @@ class Sentence{
       }
       x+=parts.get(i).w+10;     
     }
-  }
+  }*/
 }
